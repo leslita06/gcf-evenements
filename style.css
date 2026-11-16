@@ -135,6 +135,7 @@ label.f input:focus,label.f select:focus,label.f textarea:focus{outline:none;bor
 .kpis small{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--grey)}
 .bar2{display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end;margin-bottom:18px}
 .bar2 label.f{min-width:220px;flex:1}
+.bar2 label.f.wide{flex:1.6}
 .list{background:var(--white);border:1px solid var(--line)}
 .row{display:grid;grid-template-columns:1.6fr 1fr .5fr 1fr 150px;gap:14px;align-items:center;padding:12px 18px;border-top:1px solid var(--line);font-size:14px}
 .row.h{border-top:0;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--grey);background:var(--soft)}
